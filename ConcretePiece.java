@@ -3,7 +3,6 @@ import java.util.*;
 public abstract class ConcretePiece implements Piece{
     private Position position;
     private ConcretePlayer player;
-
     private ArrayList<Position> steps;
     private int distance;
 
