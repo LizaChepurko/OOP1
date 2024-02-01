@@ -1034,7 +1034,7 @@ if(Board[b.getY()][b.getX()].getType() != "♚") {
         // Display the number of pieces on each position with more than one piece
         for (int i = 0; i < positions.size(); i++) {
             if(positions.get(i).numOfPieces()>1) {
-                System.out.println(positions.get(i).toString() + ": " + positions.get(i).numOfPieces()+" pieces");
+                System.out.println(positions.get(i).toString() + positions.get(i).numOfPieces()+" pieces");
             }
         }
     }
